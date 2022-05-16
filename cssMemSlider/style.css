@@ -183,3 +183,44 @@ label:hover div {
   width: 70%;
   height: 70%;
 }
+
+/* ----------------------------------------- */
+
+@media (max-width: 1050px) {
+  .controls__and__text__wrapper {
+    flex-direction: column-reverse;
+    width: 60%;
+  }
+
+  .controls {
+    margin: 0.5rem 0 0.5rem;
+    justify-content: center;
+  }
+
+  .slider img {
+    width: 60%;
+  }
+
+  .mem {
+    margin: 0;
+  }
+
+  .item {
+    width: 37vw;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .slider img {
+    width: 80%;
+  }
+
+  .controls__and__text__wrapper {
+    width: 80%;
+  }
+
+  .item {
+    width: 50vw;
+  }
+}

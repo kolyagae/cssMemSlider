@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url('./img/1579314704_14-37.png');
+  background-size:  cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 1rem black;
+}
+
+main {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+}
